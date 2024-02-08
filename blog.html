@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design_Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & OnLine Programs For 2024</h1>
+    </section>
+
+    <!-- ----------------Blog page--------- -->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg">
+                <h2>Our Certificate & OnLine Programs For 2024</h2>
+                <p>In this course, you will understand step by step the basics of web page design in a practical and
+                    easy way. It doesn't matter if you've never programmed web pages or are unknown with them. This
+                    course is integrated to teach you the basics to reach an advanced level where you can professionally
+                    design any website. This is not just a course, a web design career, where you will learn everything
+                    you need to design any website.</p> <br>
+                <p>At the end of our Web Designing Course in India, you will be able to create any website, be it your
+                    own business or your client. The benefits that you will find in your life with this course are
+                    endless. Each part of the course contains at least one actual project that you can work on with the
+                    knowledge you have acquired. Among the wide projects that we have to implement are collections of
+                    businesses, corporate web pages, start-ups, restaurant pages, and blogs where you can earn money
+                    through branding.</p><br>
+                <p>Web and graphic design are necessary part of a successful online presence. Here at DigiSnare
+                    Technologies, the best web development training institutes in India, we offer a wide web design
+                    training courses to suit your needs. We offer several online web design courses to help you build
+                    your career. Are you looking for a web design course for beginners or a more advanced course,
+                    DigiSnare Technologies is the best online web design courses to help you succeed. We offer the
+                    versatile Web Designing Training in India at all levels. Learn web design with tutorials and
+                    introductory courses from one of the well-known platforms, i.e., DigiSnare Technologies.</p>
+
+                <div class="comment-box">
+                    <h3>Leave A Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea placeholder="Comment" rows="5">Your Comment</textarea>
+                        <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                    </form>
+
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analyics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>UI/UX Design</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Web Development</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Web Design</span>
+                    <span>21</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- ---------Footer------- -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Our Center Is Backed Up By A Team Of Professional Trainers <br>Who Have The Expertise And Complete Subject
+            Knowledge, <br> And Their Training Results Are Commendable. <br>Training Programs In SAP, Digital Marketing,
+            <br>
+            Data Science, And Languages.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> Easy Tutorials </p>
+    </section>
+
+
+    <!-- -------Javascript Menu------ -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design_Course</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+    <!-- ---------Courses--------- -->
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Learn to code and create your own web pages using HTML, CSS, and JavaScript in this interactive web
+            development course for beginners.</p>
+        <div class="row">
+
+            <div class="course-col">
+                <h2>HTML</h2>
+                <p>The HyperText Markup Language or HTML is the standard markup language for documents designed to be
+                    displayed in a web browser. It defines the content and structure of web content. It is often
+                    assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as
+                    JavaScript.</p>
+            </div>
+
+            <div class="course-col">
+                <h2>CSS</h2>
+                <p>CSS stands for Cascading Style Sheets, and it's used to add style to a web page by dictating how a
+                    site is displayed on a browser. CSS is unique in that it doesn't create any new elements, like HTML
+                    or JavaScript. Instead, it's a language used to style HTML elements.</p>
+            </div>
+
+            <div class="course-col">
+                <h2>JavaScript</h2>
+                <p>JavaScript is a scripting language that enables you to create dynamically updating content, control
+                    multimedia, animate images, and pretty much everything else</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---------Facilities------- -->
+
+    <section class="facilities">
+
+        <h1>Our Facilities</h1>
+        <p>We provide Professional IT training along with IT Skill Enhancement Training Programs. European IT manage
+            the
+            Job for talented Students through their Job Placement Cell. Lifetime Support. CCNA. Courses: Python.
+            Besic
+            Computer. Class Video. Laravel Framework.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png" alt="">
+                <h3>World Class Library</h3>
+                <p>The world class library is the most popular library in the world. It is the most popular library
+                    in
+                    the world that provides training for students to improve their skills and improve their skills
+                    with
+                    different programming languages and programming languages that are available for students to
+                    improve
+                    their skills with different programming languages </p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/basketball.png" alt="">
+                <h3>Largest Play Ground</h3>
+                <p> Our campus playground and basketball court both have a new home, and National Playday on 3
+                    August,
+                    provided the perfect opportunity to celebrate!
+
+                    Work is underway to prepare our campus for our new West Slope development and with the old
+                    playground and basketball court falling within the West Slope development area, their relocation
+                    presented a great opportunity to enhance our facilities by providing new play and sports
+                    equipment
+                    and upgrading the environment around them.
+                </p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/cafeteria.png" alt="">
+                <h3>Testy and Healthy Food</h3>
+                <p>It’s well known that people like to gather where food is served. Despite the many other
+                    comfortable
+                    rooms at a house party, the kitchen is oftentimes the most crowded space. And the college
+                    cafeteria
+                    is no exception. Improved effectiveness begins by understanding that food service spaces are
+                    typically used for a wide variety of important functions. A contemporary design acknowledges
+                    this,
+                    transforming the traditional cafeteria into a multi-purpose space that can perform the following
+                    roles vital to the higher education experience: </p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- ---------Footer------- -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Our Center Is Backed Up By A Team Of Professional Trainers <br>Who Have The Expertise And Complete Subject
+            Knowledge, <br> And Their Training Results Are Commendable. <br>Training Programs In SAP, Digital Marketing,
+            <br>
+            Data Science, And Languages.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> Easy Tutorials </p>
+    </section>
+
+
+    <!-- -------Javascript Menu------ -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+</html>
